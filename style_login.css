@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+    color:#e6edf3;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width: 900px;
+    height: 607px;
+    overflow: hidden;
+}
+
+/*Login*/
+.container_login{
+    background-color: #0d1117;
+    width: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.container_login .img_icon{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    background-color: #30363db3;
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    margin: 16px 0px 0px;
+    border:1px solid #111827;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.login h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login input{
+    background-color: #0d1117;
+    color: #FFF;
+    font-size: 14px;
+    border:1px solid #111827;
+    border-radius: 6px;
+    margin:6px 0px 16px;
+    padding: 6px 12px;
+}
+
+.login input:focus {
+    outline: 2px solid #1f6feb;
+}
+
+.login button{
+    margin: 10px 0px 16px;
+    padding: 8px 16px;
+    text-align: center;
+    color: #FFF;
+    background-color:#238636;
+    border: 1px solid #f0f6fc1a;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sing_in:hover{
+    background-color: #6366f1;
+    opacity: .8;
+}
+
+.copyring{
+    color: #6b7280;
+    font-size: 13px;
+    position: fixed;
+    margin-bottom: 15px;
+    bottom:0;
+}
