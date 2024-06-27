@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 html {
@@ -13,7 +14,6 @@ html {
 body {
     background: #0d1117;
     height: 100%;
-    font-family: "Josefin Sans", sans-serif;
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
 
 /*img-aside*/
 .img-login {
-    background: url('images/login/programing_style.png') repeat left center;
+    background: url('images/login/edu.jpg') repeat center center;
     background-size: cover;
     max-height: 90rem;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 .login{
-    background-color: #30363db3;
+    background-color: #343a40;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -51,8 +51,8 @@ body {
     padding: 30px;
     text-align: left;
     margin: 16px 0px 0px;
-    border:1px solid #111827;
-    border-radius: 6px;
+    border:1px solid #343a40;
+    border-radius: 10px;
     overflow: hidden;
     gap: 15px;
 }
@@ -87,15 +87,16 @@ body {
     max-width: 100%;
     width: 100%;
     min-height: 40px;
+    font-size: 15px;
     letter-spacing: .03rem; 
-    border: 1px solid #111827;
-    border-radius: 6px;
+    border: 1px solid #0d1117;
+    border-radius: 7px;
     text-indent: 19px;
     outline: none;
 }
 
 .text-field input:focus {
-    outline: 2px solid #1f6feb;
+    outline: 2px solid #4281e0;
 }
 
 .text-field label {
@@ -115,14 +116,14 @@ body {
 
 .text-field input:user-invalid~.error-message {
     color: #e5484d;
-    font-size: 12.8px;
+    font-size: 14px;
     display: block;
     margin-top: 5px;
 }
 
 /*Button*/
 .login-button {
-    background: #238636;
+    background: #4281e0;
     color: #FFF;
     width: 100%;
     line-height: 44px;
@@ -131,14 +132,14 @@ body {
     place-items: center;
     margin-top: 16px;
     cursor: pointer;
-    border: 1px solid #f0f6fc1a;
-    border-radius: 6px;
+    border: 1px solid #4281e0;
+    border-radius: 7px;
     outline: none;
 }
 
 .login-button:hover{
-    background-color: #6366f1;
     opacity: .8;
+    background: #5f88ea;
 }
 
 /*Responsive*/
